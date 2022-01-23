@@ -13,7 +13,7 @@ cup = 0
 cdn = 0
 
 while True:
-    order = ftx.get_orderbook('RAY/USD', 100)
+    order = ftx.get_orderbook('BTC/USD', 100)
     bidmoney = []
     askmoney = []
     for bid in order['bids']:
